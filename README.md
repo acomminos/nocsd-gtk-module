@@ -1,4 +1,4 @@
-gtk-module-nocsd
+nocsd-gtk-module
 ================
 
 A simple GTK3 module to eliminate the styling for client-side decorations.
@@ -10,7 +10,7 @@ It plays nicer with GTK2 programs as well; it'll just fail to load as the module
 Usage
 -----
 
-`export GTK_MODULES=$GTK_MODULES:<path/to/gtk-module-nocsd.so>`
+`export GTK_MODULES=$GTK_MODULES:<path/to/nocsd-gtk-module.so>`
 
 *(if you're on a recent version of GTK3, you should probably set GTK3_MODULES and not GTK_MODULES)*
 
